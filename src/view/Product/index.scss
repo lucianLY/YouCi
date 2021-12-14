@@ -1,0 +1,42 @@
+.product {
+    width: 96%;
+    padding-top: 50px;
+    margin: 0 auto;
+    // width: calc(100% - 180px);
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: end;
+        margin-bottom: 25px;
+        .add {
+            color: #fff;
+            width: 100px;
+            background: #2467c0;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }
+    .productName {
+        width: 260px;
+        word-break: initial;
+    }
+    .tdCenter {
+        text-align: center;
+        .price {
+            color: #f11515;
+        }
+    }
+    .link {
+        color: #0f6fc9;
+        margin-right: 5px;
+        svg {
+            color: #1890ff;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
