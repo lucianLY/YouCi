@@ -4,6 +4,8 @@
     "private": true,
     "dependencies": {
         "@ant-design/icons": "^4.7.0",
+        "@ckeditor/ckeditor5-build-classic": "^31.1.0",
+        "@ckeditor/ckeditor5-react": "^3.0.3",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "@fortawesome/fontawesome-svg-core": "^1.2.36",
         "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -13,7 +15,6 @@
         "@testing-library/user-event": "^12.8.3",
         "antd": "^4.17.2",
         "axios": "^0.24.0",
-        "codemirror": "^5.64.0",
         "css-init": "^1.1.9",
         "font-awesome": "^4.7.0",
         "http-proxy-middleware": "^2.0.1",
