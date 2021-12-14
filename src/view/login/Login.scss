@@ -2,8 +2,14 @@
     border: 1px solid #b5acac;
     border-radius: 5px;
     width: 400px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 0 auto;
+    .loginHeader {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
     .row {
         display: flex;
         flex-direction: row;

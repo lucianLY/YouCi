@@ -1,0 +1,43 @@
+.home {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    .nav {
+        width: 180px;
+        background: #0f6fc9;
+        color: #001529;
+        height: 100%;
+        padding-top: 100px;
+        .header {
+            font-family: "LogoFont";
+            font-size: 60px;
+            color: #fff;
+        }
+        ul {
+            .item {
+                color: #001529;
+                padding: 15px 0;
+                .icon {
+                    display: inline-block;
+                    margin-right: 10px;
+                    svg {
+                        color: #fff;
+                    }
+                }
+                .link {
+                    color: #fff;
+                }
+                &:hover {
+                    cursor: pointer;
+                    background: #2b547a;
+                }
+            }
+        }
+    }
+    .window {
+        flex: 1 1;
+        height: 100%;
+    }
+}
