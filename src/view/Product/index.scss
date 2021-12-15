@@ -1,9 +1,8 @@
 .product {
     width: 96%;
-    padding-top: 50px;
     margin: 0 auto;
-    // width: calc(100% - 180px);
     .header {
+        padding-top: 50px;
         display: flex;
         flex-direction: row;
         align-items: flex-end;
@@ -21,6 +20,9 @@
     }
     .createHeader {
         display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 30px;
         .back {
             color: #2467c0;
             font-size: 14px;
@@ -29,6 +31,16 @@
                 font-size: 20px;
                 position: relative;
                 top: 3px;
+            }
+        }
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .question {
+            .icon {
+                font-size: 16px;
+                color: #b5b7bd;
             }
         }
     }
@@ -70,6 +82,37 @@
             }
             .ck-editor__editable {
                 min-height: 400px;
+            }
+        }
+    }
+    .fourGuids {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 10px 0;
+        .row {
+            width: 50%;
+            .left {
+                width: 150px;
+            }
+            .right {
+                width: calc(100% - 150px);
+                .total {
+                    width: 100%;
+                }
+                .ck-editor__editable {
+                    min-height: 400px;
+                }
+                .gridRow {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+        }
+         :last-child {
+            .left {
+                text-align: center;
             }
         }
     }

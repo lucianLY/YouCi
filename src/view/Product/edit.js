@@ -8,9 +8,7 @@ import { faArrowLeft, faQuestionCircle } from '@fortawesome/free-solid-svg-icons
 const { RangePicker } = DatePicker
 const { Option } = Select;
 
-
-
-const Create = () => {
+const Edit = () => {
   const [difficulty, setDifficulty] = useState(1)
   const [strength, setStrength] = useState(1)
 
@@ -37,7 +35,7 @@ const Create = () => {
         <div className="back" >
           <Link to="/product"><FontAwesomeIcon icon={faArrowLeft} className="icon" /> 返回</Link>
         </div>
-        <div className="title">创建产品</div>
+        <div className="title">编辑产品</div>
         <div className="question"><FontAwesomeIcon icon={faQuestionCircle} className="icon" /></div>
       </div>
       <div className="row">
@@ -167,4 +165,4 @@ const Create = () => {
   )
 }
 
-export default Create
+export default Edit

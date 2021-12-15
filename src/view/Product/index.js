@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Table, Tag, Space } from 'antd'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit, faEraser, faTrashAlt, faYenSign } from '@fortawesome/free-solid-svg-icons'
 
