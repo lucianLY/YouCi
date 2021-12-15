@@ -27,6 +27,7 @@ body {
 }
 
 main {
+    overflow-y: auto;
     width: calc(100% - 180px);
 }
 

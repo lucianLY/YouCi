@@ -19,6 +19,19 @@
             border-radius: 5px;
         }
     }
+    .createHeader {
+        display: flex;
+        .back {
+            color: #2467c0;
+            font-size: 14px;
+            .icon {
+                color: #2467c0;
+                font-size: 20px;
+                position: relative;
+                top: 3px;
+            }
+        }
+    }
     .productName {
         width: 260px;
         word-break: initial;
@@ -27,6 +40,9 @@
         text-align: center;
         .price {
             color: #f11515;
+            svg {
+                color: #f11515;
+            }
         }
     }
     .link {
@@ -37,6 +53,40 @@
         }
         &:last-child {
             margin-right: 0;
+        }
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 10px 0;
+        .left {
+            width: 150px;
+        }
+        .right {
+            width: calc(100% - 150px);
+            .total {
+                width: 100%;
+            }
+            .ck-editor__editable {
+                min-height: 400px;
+            }
+        }
+    }
+    .button {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .submit {
+            color: #fff;
+            width: 250px;
+            background: #2467c0;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 5px;
         }
     }
 }
